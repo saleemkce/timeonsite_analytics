@@ -5,7 +5,7 @@
  */
 
 SELECT 
-  title, 
+  title as Title, 
   TOS_GET_DURATION(short_visit) AS 'Short Visit', 
   TOS_GET_DURATION(long_visit) AS 'Long Visit' 
 FROM 
